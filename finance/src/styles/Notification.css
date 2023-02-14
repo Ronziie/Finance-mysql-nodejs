@@ -1,0 +1,28 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    justify-content: right;
+}
+
+.notification {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0 1rem;
+}
+
+.font_icon {
+    font-size: 1.5rem;
+}
+svg {
+    color: grey;
+}
+.image {
+    display: flex;
+    gap: 1rem;
+}
+img {
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 3rem;
+}

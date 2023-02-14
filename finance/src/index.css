@@ -1,0 +1,136 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  background-color: lightblue;
+  box-shadow: black 200px;
+  border-radius: 10px;
+}
+
+.App h1 {
+  font-size: 20px;
+  text-align: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.logo img {
+  width: 100%;
+  height: 90px;
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.registration {
+  display: block;
+  align-items: center;
+  justify-content: center;
+
+}
+.registration h1 {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.registration label {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  display: block;
+  align-items: center;
+  justify-content: center;
+
+}
+.registration input {
+  border-radius: 10px;
+  border-color: black;
+  background-color: #f1f1f1;
+  padding: 5px;
+
+}
+
+.btn-reg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+h5 {
+  display: block;
+  padding-top: 10px;
+  font-size: 14px;
+}
+
+.login  {
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+
+.login h1 {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login label {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+
+.login input {
+  border-radius: 10px;
+  border-color: black;
+  background-color: #f1f1f1;
+  padding: 5px;
+}
+
+.line {
+  width: 100%;
+  color: red;
+  background: red;
+  height: 30px;
+}
+.show {
+  display:block;
+}
+
+.hide {
+  display:none;
+}
+
+.Register-Here {
+  display: block;
+
+}
+.Register-Here .regi-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Register-Here h1{
+  font-size: 14px;
+  color: purple;
+}
+.Register-Here h5 {
+  font-size: 12px;
+  text-align: center;
+}
